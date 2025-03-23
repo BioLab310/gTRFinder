@@ -1,0 +1,5 @@
+#pragma once
+
+#define DBGindex1_VERSION_MAJOR @DBGindex1_VERSION_MAJOR@
+#define DBGindex1_VERSION_MINOR @DBGindex1_VERSION_MINOR@
+
