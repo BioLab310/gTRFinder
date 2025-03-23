@@ -26,12 +26,13 @@ Our project, built using the CMake build system, adheres to the following direct
 
 ```
 .
-├── build 
+├── build
 ├── CMakeLists.txt
 ├── config.h.in
 ├── include
 ├── lib
-└── src
+├── src
+└── test_data
 ```
 
 This codebase is developed in C++ and is compiled and executed on Linux-based operating systems. The prerequisites for building and running this software include the prior installation of CMake, GCC (GNU Compiler Collection), and Python version 3.9. The compilation process is as follows:
