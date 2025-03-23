@@ -1,4 +1,4 @@
-# MTR_Detect
+# MTR-Detect
 
 Release Date: March 20, 2025
 
@@ -14,7 +14,7 @@ Author
 
 2.Test Data
 
-	MTR-Detect employs the MinDBG structure to identify tandem repeats within the genome. The genomic sequence, provided as a .fa file, is utilized by MTR-Detect to generate in silico tandem repeats for testing purposes. The MTR-Detect tool can be invoked via the command-line interface to generate these simulated sequences.
+	MTR-Detect employs the MiniDBG structure to identify tandem repeats within the genome. The genomic sequence, provided as a .fa file, is utilized by MTR-Detect to generate in silico tandem repeats for testing purposes. The MTR-Detect tool can be invoked via the command-line interface to generate these simulated sequences.
 
 3.Building Notes
 
