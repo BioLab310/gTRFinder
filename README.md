@@ -59,7 +59,7 @@ $ ./MTR_Detect -M -Sf 10_10.fasta -Df 10.fasta
 The tool is invoked to analyze the tandem repeats within the `10_10.fasta` gene sequence file. The resulting tandem repeat sequences are saved in the `10.fasta` file.
 ```
 
-2)Generation of \*in silico\* gene sequences
+2)Generation of *in silico* gene sequences
 
 ```
 $ ./MTR_Detect -G [-L <len> -T <Repeat times> -Edr <edit distance ratios> -Sn <sequence_num -Cn <cell num> -OF <origin file> -Df <distinantion file]
