@@ -84,11 +84,11 @@ The format of a parameter in the MTR-Detect command line is a pair of strings, d
 
 	The -M parameter represents a method for invoking the tool to analyze sequences within a .fa formatted file.
 
-@parameter (-Sf,<source file>)
+@parameter (-Sf,\<source file\>)
 
 	The -Sf parameter specifies the file containing the gene sequences to be analyzed. This file must be in .fa format.
 
-@parameter (-Df,<distinnation file>)
+@parameter (-Df,\<distinnation file\>)
 
 	The -Df parameter specifies the filename for the output file containing the identified gene sequences. This file will be saved in the match_fasta/ directory.
 
@@ -96,7 +96,7 @@ The format of a parameter in the MTR-Detect command line is a pair of strings, d
 
 	The -G parameter represents a method for generating in silico tandem repeat sequence data. The generated sequence data is stored in the generate_fasta/ directory.
 
-@parameter (-Of,<original file>)
+@parameter (-Of, \<Original file\>)
 
 	The -Of parameter is used for specifying the file containing the original gene sequence when generating in silico sequences.
 
@@ -121,11 +121,11 @@ The format of a parameter in the MTR-Detect command line is a pair of strings, d
 	The exact edit distance ratio can be set by providing a single floating-point value, such as -edr 0.1.
 	Alternatively, a range for the edit distance ratio can be defined by providing two floating-point values, such as -edr 0 0.1.
 
-@parameter (-Cn,<cell num>)
+@parameter (-Cn,\<cell num\>)
 
 	The cn parameter specifies the number of tandem repeats to be inserted into a single gene sequence.
 
-@parameter (-Sn,<sequence num>)
+@parameter (-Sn,\<sequence num\>)
 
 	The sn parameter specifies the number of gene sequences to be generated within the .fasta output file.
 
@@ -152,7 +152,7 @@ Note: Due to thread concurrency, the sequence_number may not be strictly sequent
 
 7.License
 
-	See LICENSE.txt
+	See LICENSE
 
 8.Contacts
 
