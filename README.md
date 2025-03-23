@@ -10,11 +10,15 @@ Author
 
 1.Introduction
 
-	MTR-Detect is a tool designed for accurate and efficient detection of tandem repeats (TRs) in genomic data. Based on the MiniDBG model, it utilizes De Bruijn Graph (DBG) and minimal edge extraction to improve detection in complex genomic regions. The tool performs well across different repeat lengths and sequencing errors, offering high precision and recall rates. MTR-Detect is faster and more reliable compared to existing tools, making it ideal for large-scale genomic analysis.
+	MTR-Detect is a tool designed for accurate and efficient detection of tandem repeats (TRs) in genomic data. 
+	Based on the MiniDBG model, it utilizes De Bruijn Graph (DBG) and minimal edge extraction to improve detection in complex genomic regions. 
+	The tool performs well across different repeat lengths and sequencing errors, offering high precision and recall rates. 
+	MTR-Detect is faster and more reliable compared to existing tools, making it ideal for large-scale genomic analysis.
 
 2.Test Data
 
-	MTR-Detect employs the MiniDBG structure to identify tandem repeats within the genome. The genomic sequence, provided as a .fa file, is utilized by MTR-Detect to generate in silico tandem repeats for testing purposes. The MTR-Detect tool can be invoked via the command-line interface to generate these simulated sequences.
+	MTR-Detect employs the MiniDBG structure to identify tandem repeats within the genome. The genomic sequence, provided as a .fa file, is utilized by MTR-Detect to generate in silico tandem repeats for testing purposes. 
+	The MTR-Detect tool can be invoked via the command-line interface to generate these simulated sequences.We have provided the generated in silico sequences in the test directory.
 
 3.Building Notes
 
