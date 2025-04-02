@@ -57,10 +57,10 @@ RM = /data/run01/scw6eyx/miniconda3/envs/myenv/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/run01/scw6eyx/cyf/MTR_Detect
+CMAKE_SOURCE_DIR = /HOME/scw6eyx/run/cyf/gTRFinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/run01/scw6eyx/cyf/MTR_Detect/build
+CMAKE_BINARY_DIR = /HOME/scw6eyx/run/cyf/gTRFinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /data/run01/scw6eyx/cyf/MTR_Detect/build && $(CMAKE_COMMAND) -E cmake_progress_start /data/run01/scw6eyx/cyf/MTR_Detect/build/CMakeFiles /data/run01/scw6eyx/cyf/MTR_Detect/build/lib/pybind11//CMakeFiles/progress.marks
-	cd /data/run01/scw6eyx/cyf/MTR_Detect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/run01/scw6eyx/cyf/MTR_Detect/build/CMakeFiles 0
+	cd /HOME/scw6eyx/run/cyf/gTRFinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /HOME/scw6eyx/run/cyf/gTRFinder/build/CMakeFiles /HOME/scw6eyx/run/cyf/gTRFinder/build/lib/pybind11//CMakeFiles/progress.marks
+	cd /HOME/scw6eyx/run/cyf/gTRFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /HOME/scw6eyx/run/cyf/gTRFinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /data/run01/scw6eyx/cyf/MTR_Detect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/clean
+	cd /HOME/scw6eyx/run/cyf/gTRFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /data/run01/scw6eyx/cyf/MTR_Detect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/preinstall
+	cd /HOME/scw6eyx/run/cyf/gTRFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /data/run01/scw6eyx/cyf/MTR_Detect/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/preinstall
+	cd /HOME/scw6eyx/run/cyf/gTRFinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /data/run01/scw6eyx/cyf/MTR_Detect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /HOME/scw6eyx/run/cyf/gTRFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /data/run01/scw6eyx/cyf/MTR_Detect/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /HOME/scw6eyx/run/cyf/gTRFinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

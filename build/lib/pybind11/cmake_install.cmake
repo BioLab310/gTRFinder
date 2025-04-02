@@ -1,4 +1,4 @@
-# Install script for directory: /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11
+# Install script for directory: /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-objdump")
+  set(CMAKE_OBJDUMP "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-objdump")
 endif()
 

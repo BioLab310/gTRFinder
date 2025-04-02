@@ -54,16 +54,16 @@ RM = /data/run01/scw6eyx/miniconda3/envs/myenv/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/run01/scw6eyx/cyf/MTR_Detect
+CMAKE_SOURCE_DIR = /HOME/scw6eyx/run/cyf/gTRFinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/run01/scw6eyx/cyf/MTR_Detect/build
+CMAKE_BINARY_DIR = /HOME/scw6eyx/run/cyf/gTRFinder/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MTR_Detect.dir/all
+all: CMakeFiles/gTRFinder.dir/all
 all: lib/pybind11/all
 .PHONY : all
 
@@ -72,7 +72,7 @@ preinstall: lib/pybind11/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MTR_Detect.dir/clean
+clean: CMakeFiles/gTRFinder.dir/clean
 clean: lib/pybind11/clean
 .PHONY : clean
 
@@ -92,30 +92,30 @@ lib/pybind11/clean:
 .PHONY : lib/pybind11/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MTR_Detect.dir
+# Target rules for target CMakeFiles/gTRFinder.dir
 
 # All Build rule for target.
-CMakeFiles/MTR_Detect.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/run01/scw6eyx/cyf/MTR_Detect/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target MTR_Detect"
-.PHONY : CMakeFiles/MTR_Detect.dir/all
+CMakeFiles/gTRFinder.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/HOME/scw6eyx/run/cyf/gTRFinder/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target gTRFinder"
+.PHONY : CMakeFiles/gTRFinder.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MTR_Detect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/run01/scw6eyx/cyf/MTR_Detect/build/CMakeFiles 12
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MTR_Detect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/run01/scw6eyx/cyf/MTR_Detect/build/CMakeFiles 0
-.PHONY : CMakeFiles/MTR_Detect.dir/rule
+CMakeFiles/gTRFinder.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /HOME/scw6eyx/run/cyf/gTRFinder/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gTRFinder.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /HOME/scw6eyx/run/cyf/gTRFinder/build/CMakeFiles 0
+.PHONY : CMakeFiles/gTRFinder.dir/rule
 
 # Convenience name for target.
-MTR_Detect: CMakeFiles/MTR_Detect.dir/rule
-.PHONY : MTR_Detect
+gTRFinder: CMakeFiles/gTRFinder.dir/rule
+.PHONY : gTRFinder
 
 # clean rule for target.
-CMakeFiles/MTR_Detect.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/clean
-.PHONY : CMakeFiles/MTR_Detect.dir/clean
+CMakeFiles/gTRFinder.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/clean
+.PHONY : CMakeFiles/gTRFinder.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

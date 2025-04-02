@@ -57,10 +57,10 @@ RM = /data/run01/scw6eyx/miniconda3/envs/myenv/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/run01/scw6eyx/cyf/MTR_Detect
+CMAKE_SOURCE_DIR = /HOME/scw6eyx/run/cyf/gTRFinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/run01/scw6eyx/cyf/MTR_Detect/build
+CMAKE_BINARY_DIR = /HOME/scw6eyx/run/cyf/gTRFinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/run01/scw6eyx/cyf/MTR_Detect/build/CMakeFiles /data/run01/scw6eyx/cyf/MTR_Detect/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /HOME/scw6eyx/run/cyf/gTRFinder/build/CMakeFiles /HOME/scw6eyx/run/cyf/gTRFinder/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/run01/scw6eyx/cyf/MTR_Detect/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /HOME/scw6eyx/run/cyf/gTRFinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MTR_Detect
+# Target rules for targets named gTRFinder
 
 # Build rule for target.
-MTR_Detect: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MTR_Detect
-.PHONY : MTR_Detect
+gTRFinder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gTRFinder
+.PHONY : gTRFinder
 
 # fast build rule for target.
-MTR_Detect/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/build
-.PHONY : MTR_Detect/fast
+gTRFinder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/build
+.PHONY : gTRFinder/fast
 
 src/DBGindex.o: src/DBGindex.cpp.o
 .PHONY : src/DBGindex.o
 
 # target to build an object file
 src/DBGindex.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/DBGindex.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/DBGindex.cpp.o
 .PHONY : src/DBGindex.cpp.o
 
 src/DBGindex.i: src/DBGindex.cpp.i
@@ -142,7 +142,7 @@ src/DBGindex.i: src/DBGindex.cpp.i
 
 # target to preprocess a source file
 src/DBGindex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/DBGindex.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/DBGindex.cpp.i
 .PHONY : src/DBGindex.cpp.i
 
 src/DBGindex.s: src/DBGindex.cpp.s
@@ -150,7 +150,7 @@ src/DBGindex.s: src/DBGindex.cpp.s
 
 # target to generate assembly for a file
 src/DBGindex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/DBGindex.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/DBGindex.cpp.s
 .PHONY : src/DBGindex.cpp.s
 
 src/basic.o: src/basic.cpp.o
@@ -158,7 +158,7 @@ src/basic.o: src/basic.cpp.o
 
 # target to build an object file
 src/basic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/basic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/basic.cpp.o
 .PHONY : src/basic.cpp.o
 
 src/basic.i: src/basic.cpp.i
@@ -166,7 +166,7 @@ src/basic.i: src/basic.cpp.i
 
 # target to preprocess a source file
 src/basic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/basic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/basic.cpp.i
 .PHONY : src/basic.cpp.i
 
 src/basic.s: src/basic.cpp.s
@@ -174,7 +174,7 @@ src/basic.s: src/basic.cpp.s
 
 # target to generate assembly for a file
 src/basic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/basic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/basic.cpp.s
 .PHONY : src/basic.cpp.s
 
 src/evaluate.o: src/evaluate.cpp.o
@@ -182,7 +182,7 @@ src/evaluate.o: src/evaluate.cpp.o
 
 # target to build an object file
 src/evaluate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/evaluate.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/evaluate.cpp.o
 .PHONY : src/evaluate.cpp.o
 
 src/evaluate.i: src/evaluate.cpp.i
@@ -190,7 +190,7 @@ src/evaluate.i: src/evaluate.cpp.i
 
 # target to preprocess a source file
 src/evaluate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/evaluate.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/evaluate.cpp.i
 .PHONY : src/evaluate.cpp.i
 
 src/evaluate.s: src/evaluate.cpp.s
@@ -198,7 +198,7 @@ src/evaluate.s: src/evaluate.cpp.s
 
 # target to generate assembly for a file
 src/evaluate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/evaluate.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/evaluate.cpp.s
 .PHONY : src/evaluate.cpp.s
 
 src/generateSeq.o: src/generateSeq.cpp.o
@@ -206,7 +206,7 @@ src/generateSeq.o: src/generateSeq.cpp.o
 
 # target to build an object file
 src/generateSeq.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/generateSeq.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/generateSeq.cpp.o
 .PHONY : src/generateSeq.cpp.o
 
 src/generateSeq.i: src/generateSeq.cpp.i
@@ -214,7 +214,7 @@ src/generateSeq.i: src/generateSeq.cpp.i
 
 # target to preprocess a source file
 src/generateSeq.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/generateSeq.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/generateSeq.cpp.i
 .PHONY : src/generateSeq.cpp.i
 
 src/generateSeq.s: src/generateSeq.cpp.s
@@ -222,7 +222,7 @@ src/generateSeq.s: src/generateSeq.cpp.s
 
 # target to generate assembly for a file
 src/generateSeq.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/generateSeq.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/generateSeq.cpp.s
 .PHONY : src/generateSeq.cpp.s
 
 src/hash.o: src/hash.cpp.o
@@ -230,7 +230,7 @@ src/hash.o: src/hash.cpp.o
 
 # target to build an object file
 src/hash.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/hash.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/hash.cpp.o
 .PHONY : src/hash.cpp.o
 
 src/hash.i: src/hash.cpp.i
@@ -238,7 +238,7 @@ src/hash.i: src/hash.cpp.i
 
 # target to preprocess a source file
 src/hash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/hash.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/hash.cpp.i
 .PHONY : src/hash.cpp.i
 
 src/hash.s: src/hash.cpp.s
@@ -246,7 +246,7 @@ src/hash.s: src/hash.cpp.s
 
 # target to generate assembly for a file
 src/hash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/hash.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/hash.cpp.s
 .PHONY : src/hash.cpp.s
 
 src/kmer_TRs_interval.o: src/kmer_TRs_interval.cpp.o
@@ -254,7 +254,7 @@ src/kmer_TRs_interval.o: src/kmer_TRs_interval.cpp.o
 
 # target to build an object file
 src/kmer_TRs_interval.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/kmer_TRs_interval.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/kmer_TRs_interval.cpp.o
 .PHONY : src/kmer_TRs_interval.cpp.o
 
 src/kmer_TRs_interval.i: src/kmer_TRs_interval.cpp.i
@@ -262,7 +262,7 @@ src/kmer_TRs_interval.i: src/kmer_TRs_interval.cpp.i
 
 # target to preprocess a source file
 src/kmer_TRs_interval.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/kmer_TRs_interval.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/kmer_TRs_interval.cpp.i
 .PHONY : src/kmer_TRs_interval.cpp.i
 
 src/kmer_TRs_interval.s: src/kmer_TRs_interval.cpp.s
@@ -270,7 +270,7 @@ src/kmer_TRs_interval.s: src/kmer_TRs_interval.cpp.s
 
 # target to generate assembly for a file
 src/kmer_TRs_interval.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/kmer_TRs_interval.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/kmer_TRs_interval.cpp.s
 .PHONY : src/kmer_TRs_interval.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -278,7 +278,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -286,7 +286,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -294,7 +294,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/match.o: src/match.cpp.o
@@ -302,7 +302,7 @@ src/match.o: src/match.cpp.o
 
 # target to build an object file
 src/match.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/match.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/match.cpp.o
 .PHONY : src/match.cpp.o
 
 src/match.i: src/match.cpp.i
@@ -310,7 +310,7 @@ src/match.i: src/match.cpp.i
 
 # target to preprocess a source file
 src/match.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/match.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/match.cpp.i
 .PHONY : src/match.cpp.i
 
 src/match.s: src/match.cpp.s
@@ -318,7 +318,7 @@ src/match.s: src/match.cpp.s
 
 # target to generate assembly for a file
 src/match.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/match.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/match.cpp.s
 .PHONY : src/match.cpp.s
 
 src/parallel.o: src/parallel.cpp.o
@@ -326,7 +326,7 @@ src/parallel.o: src/parallel.cpp.o
 
 # target to build an object file
 src/parallel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/parallel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/parallel.cpp.o
 .PHONY : src/parallel.cpp.o
 
 src/parallel.i: src/parallel.cpp.i
@@ -334,7 +334,7 @@ src/parallel.i: src/parallel.cpp.i
 
 # target to preprocess a source file
 src/parallel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/parallel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/parallel.cpp.i
 .PHONY : src/parallel.cpp.i
 
 src/parallel.s: src/parallel.cpp.s
@@ -342,7 +342,7 @@ src/parallel.s: src/parallel.cpp.s
 
 # target to generate assembly for a file
 src/parallel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/parallel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/parallel.cpp.s
 .PHONY : src/parallel.cpp.s
 
 src/plot_data.o: src/plot_data.cpp.o
@@ -350,7 +350,7 @@ src/plot_data.o: src/plot_data.cpp.o
 
 # target to build an object file
 src/plot_data.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/plot_data.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/plot_data.cpp.o
 .PHONY : src/plot_data.cpp.o
 
 src/plot_data.i: src/plot_data.cpp.i
@@ -358,7 +358,7 @@ src/plot_data.i: src/plot_data.cpp.i
 
 # target to preprocess a source file
 src/plot_data.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/plot_data.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/plot_data.cpp.i
 .PHONY : src/plot_data.cpp.i
 
 src/plot_data.s: src/plot_data.cpp.s
@@ -366,7 +366,7 @@ src/plot_data.s: src/plot_data.cpp.s
 
 # target to generate assembly for a file
 src/plot_data.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/plot_data.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/plot_data.cpp.s
 .PHONY : src/plot_data.cpp.s
 
 src/test.o: src/test.cpp.o
@@ -374,7 +374,7 @@ src/test.o: src/test.cpp.o
 
 # target to build an object file
 src/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/test.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/test.cpp.o
 .PHONY : src/test.cpp.o
 
 src/test.i: src/test.cpp.i
@@ -382,7 +382,7 @@ src/test.i: src/test.cpp.i
 
 # target to preprocess a source file
 src/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/test.cpp.i
 .PHONY : src/test.cpp.i
 
 src/test.s: src/test.cpp.s
@@ -390,7 +390,7 @@ src/test.s: src/test.cpp.s
 
 # target to generate assembly for a file
 src/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MTR_Detect.dir/build.make CMakeFiles/MTR_Detect.dir/src/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gTRFinder.dir/build.make CMakeFiles/gTRFinder.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
 
 # Help Target
@@ -401,7 +401,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MTR_Detect"
+	@echo "... gTRFinder"
 	@echo "... src/DBGindex.o"
 	@echo "... src/DBGindex.i"
 	@echo "... src/DBGindex.s"

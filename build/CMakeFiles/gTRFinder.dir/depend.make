@@ -1,2 +1,2 @@
-# Empty dependencies file for MTR_Detect.
+# Empty dependencies file for gTRFinder.
 # This may be replaced when dependencies are built.

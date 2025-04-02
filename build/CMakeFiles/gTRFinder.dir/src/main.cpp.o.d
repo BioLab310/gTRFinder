@@ -1,8 +1,8 @@
-CMakeFiles/MTR_Detect.dir/src/test.cpp.o: \
- /data/run01/scw6eyx/cyf/MTR_Detect/src/test.cpp \
+CMakeFiles/gTRFinder.dir/src/main.cpp.o: \
+ /HOME/scw6eyx/run/cyf/gTRFinder/src/main.cpp \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/test.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/basic.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/DBGindex.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/basic.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/stdint.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/stdint.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/features.h \
@@ -274,22 +274,22 @@ CMakeFiles/MTR_Detect.dir/src/test.cpp.o: \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/codecvt \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/fs_dir.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/fs_ops.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/parallel.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/DBGindex.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/hash.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/generateSeq.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/test.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/plot_data.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/embed.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/pybind11.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/class.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/attr.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/common.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/conduit/wrap_include_python_h.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/Python.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/patchlevel.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pyconfig.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pymacconfig.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/hash.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/generateSeq.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/test.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/parallel.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/DBGindex.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/plot_data.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/embed.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/pybind11.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/class.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/attr.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/common.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/conduit/wrap_include_python_h.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/Python.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/patchlevel.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pyconfig.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pymacconfig.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/limits.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/syslimits.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/limits.h \
@@ -298,104 +298,104 @@ CMakeFiles/MTR_Detect.dir/src/test.cpp.o: \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/linux/limits.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/bits/posix2_lim.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/bits/xopen_lim.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pyport.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pyport.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include/inttypes.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/exports.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pymacro.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pymath.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pymem.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pymem.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/object.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/object.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/objimpl.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/objimpl.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/typeslots.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pyhash.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pydebug.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/bytearrayobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/bytearrayobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/bytesobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/bytesobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/unicodeobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/unicodeobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/longobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/longintrepr.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/boolobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/floatobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/complexobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/rangeobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/memoryobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/tupleobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/tupleobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/listobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/listobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/dictobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/dictobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/odictobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/enumobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/setobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/methodobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/methodobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/moduleobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/funcobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/classobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/fileobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/fileobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pycapsule.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/code.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/code.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pyframe.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/traceback.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/traceback.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/sliceobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cellobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/iterobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/initconfig.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/genobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pystate.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pystate.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/abstract.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/abstract.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/descrobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/genericaliasobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/warnings.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/weakrefobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/structseq.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/namespaceobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/picklebufobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pytime.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/codecs.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pyerrors.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pyerrors.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pythread.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/context.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/modsupport.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/compile.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/compile.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pythonrun.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pythonrun.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pylifecycle.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pylifecycle.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/ceval.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/ceval.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/sysmodule.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/sysmodule.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/osmodule.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/intrcheck.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/import.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/import.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/bltinmodule.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/eval.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pyctype.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pystrtod.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pystrcmp.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/fileutils.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/fileutils.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/pyfpe.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/tracemalloc.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/frameobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/cpython/frameobject.h \
- /data/run01/scw6eyx/miniconda3/envs/myenv/include/python3.10/pythread.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/exports.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pymacro.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pymath.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pymem.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pymem.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/object.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/object.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/objimpl.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/objimpl.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/typeslots.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pyhash.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pydebug.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/bytearrayobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/bytearrayobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/bytesobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/bytesobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/unicodeobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/unicodeobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/longobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/longintrepr.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/boolobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/floatobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/complexobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/rangeobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/memoryobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/tupleobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/tupleobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/listobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/listobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/dictobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/dictobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/odictobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/enumobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/setobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/methodobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/methodobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/moduleobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/funcobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/classobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/fileobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/fileobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pycapsule.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/code.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/code.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pyframe.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/traceback.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/traceback.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/sliceobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cellobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/iterobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/initconfig.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/genobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pystate.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pystate.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/abstract.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/abstract.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/descrobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/genericaliasobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/warnings.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/weakrefobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/structseq.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/namespaceobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/picklebufobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pytime.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/codecs.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pyerrors.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pyerrors.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pythread.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/context.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/modsupport.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/compile.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/compile.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pythonrun.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pythonrun.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pylifecycle.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pylifecycle.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/ceval.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/ceval.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/sysmodule.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/sysmodule.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/osmodule.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/intrcheck.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/import.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/import.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/bltinmodule.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/eval.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pyctype.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pystrtod.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pystrcmp.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/fileutils.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/fileutils.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/pyfpe.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/tracemalloc.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/frameobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/cpython/frameobject.h \
+ /HOME/scw6eyx/run/miniconda3/envs/myenv/include/python3.10/pythread.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/forward_list \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/forward_list.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/forward_list.tcc \
@@ -408,45 +408,48 @@ CMakeFiles/MTR_Detect.dir/src/test.cpp.o: \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/unordered_set \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/unordered_set.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/version \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/cast.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/descr.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/type_caster_base.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/gil.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/cast.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/descr.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/type_caster_base.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/gil.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/cassert \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/internals.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/conduit/pybind11_platform_abi_id.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/pytypes.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/buffer_info.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/internals.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/conduit/pybind11_platform_abi_id.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/pytypes.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/buffer_info.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/iterator \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/stream_iterator.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/optional \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/thread \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/std_thread.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/this_thread_sleep.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/trampoline_self_life_support.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/using_smart_holder.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/struct_smart_holder.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/trampoline_self_life_support.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/using_smart_holder.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/struct_smart_holder.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/functional \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/std_function.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/array \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/compare \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/value_and_holder.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/cpp_conduit.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/dynamic_raw_ptr_cast_if_possible.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/typeid.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/value_and_holder.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/cpp_conduit.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/dynamic_raw_ptr_cast_if_possible.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/typeid.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/cxxabi.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/x86_64-conda-linux-gnu/bits/cxxabi_tweaks.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/options.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/exception_translation.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/detail/init.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/gil_safe_call_once.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/typing.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/options.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/exception_translation.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/detail/init.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/gil_safe_call_once.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/typing.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/stack \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/deque \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/stl_deque.h \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/deque.tcc \
  /data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include/c++/bits/stl_stack.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/lib/pybind11/include/pybind11/eval.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/evaluate.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/match.h \
- /data/run01/scw6eyx/cyf/MTR_Detect/include/kmer_TRs_interval.h
+ /HOME/scw6eyx/run/cyf/gTRFinder/lib/pybind11/include/pybind11/eval.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/evaluate.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/match.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/kmer_TRs_interval.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/parallel.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/generateSeq.h \
+ /HOME/scw6eyx/run/cyf/gTRFinder/include/test.h

@@ -1,4 +1,4 @@
-# MTR-Detect
+# gTRFinder
 
 Release Date: March 23, 2025
 
@@ -10,15 +10,15 @@ Author
 
 1.Introduction
 
-	MTR-Detect is a tool designed for accurate and efficient detection of tandem repeats (TRs) in genomic data. 
+	gTRFinder is a tool designed for accurate and efficient detection of tandem repeats (TRs) in genomic data. 
 	Based on the MiniDBG model, it utilizes De Bruijn Graph (DBG) and minimal edge extraction to improve detection in complex genomic regions. 
 	The tool performs well across different repeat lengths and sequencing errors, offering high precision and recall rates. 
-	MTR-Detect is faster and more reliable compared to existing tools, making it ideal for large-scale genomic analysis.
+	gTRFinder is faster and more reliable compared to existing tools, making it ideal for large-scale genomic analysis.
 
 2.Test Data
 
-	MTR-Detect employs the MiniDBG structure to identify tandem repeats within the genome. The genomic sequence, provided as a .fa file, is utilized by MTR-Detect to generate in silico tandem repeats for testing purposes. 
-	The MTR-Detect tool can be invoked via the command-line interface to generate these simulated sequences.We have provided the generated in silico sequences in the test directory.
+	gTRFinder employs the MiniDBG structure to identify tandem repeats within the genome. The genomic sequence, provided as a .fa file, is utilized by gTRFinder to generate in silico tandem repeats for testing purposes. 
+	The gTRFinder tool can be invoked via the command-line interface to generate these simulated sequences.We have provided the generated in silico sequences in the test directory.
 
 3.Building Notes
 
@@ -51,7 +51,7 @@ We have uploaded a `build` directory, and we have successfully compiled the curr
 1)Methods for TR identification in gene sequences
 
 ```
-$ ./MTR_Detect -M -Sf <source file> [-Df <distination file>]
+$ ./gTRFinder -M -Sf <source file> [-Df <distination file>]
 
 The `-M` command performs the identification of tandem repeats within the input gene sequence file (in `.fa` format). The identification results are stored in the `match_fasta/` directory, with the default naming convention inheriting the input filename. Alternatively, the user can specify the `-Df` option to rename the output files containing the identification results.
 ```
@@ -59,7 +59,7 @@ The `-M` command performs the identification of tandem repeats within the input 
 Running test
 
 ```
-$ ./MTR_Detect -M -Sf 10_10.fasta -Df 10.fasta
+$ ./gTRFinder -M -Sf 10_10.fasta -Df 10.fasta
 
 The tool is invoked to analyze the tandem repeats within the `10_10.fasta` gene sequence file. The resulting tandem repeat sequences are saved in the `10.fasta` file.
 ```
@@ -67,7 +67,7 @@ The tool is invoked to analyze the tandem repeats within the `10_10.fasta` gene 
 2)Generation of *in silico* gene sequences
 
 ```
-$ ./MTR_Detect -G [-L <len> -T <Repeat times> -Edr <edit distance ratios> -Sn <sequence_num -Cn <cell num> -OF <origin file> -Df <distinantion file]
+$ ./gTRFinder -G [-L <len> -T <Repeat times> -Edr <edit distance ratios> -Sn <sequence_num -Cn <cell num> -OF <origin file> -Df <distinantion file]
 
 The `-G` command is utilized to generate *in silico* gene sequences. Users have the option to input relevant parameters for the simulated sequences; if no parameters are provided, the generated sequence will be a random nucleotide sequence. The `-Df` option can be specified to designate the output filename; otherwise, the generated file will be automatically named `len_times`. The generated sequence file (in `.fasta` format) is saved in the `generate_fasta/` directory. Concurrently, a `.info` file containing the generation parameters is created in the same directory as the `.fasta` file.
 ```
@@ -75,7 +75,7 @@ The `-G` command is utilized to generate *in silico* gene sequences. Users have 
 Running test
 
 ```
-$ ./MTR_Detect -G -L 10 -T 10 -edr 0.1 -Sn 10 -Cn 20 
+$ ./gTRFinder -G -L 10 -T 10 -edr 0.1 -Sn 10 -Cn 20 
 
 The aforementioned command will generate a sequence file named `10_10.fasta`, containing ten gene sequences. Each gene sequence will feature 20 tandem repeats, with each repeat unit characterized by the following parameters: a repeat length of 10 nucleotides, a copy number of 10, an edit distance ratio of 0.1, and a randomly generated initial sequence. Concurrently, a `10_10.info` file will be created to store the detailed generation parameters of the sequences.
 ```
@@ -83,7 +83,7 @@ The aforementioned command will generate a sequence file named `10_10.fasta`, co
 
 5.Parameter Settings
 
-The format of a parameter in the MTR-Detect command line is a pair of strings, denoted here as `(-p, [q])`, `(-p, <q>)`, or `(-p)`. String `p` is the name of the parameter. String `q` is the value of the parameter input in the command line. `q` enclosed in square brackets `[]` represents an optional parameter. `q` enclosed in angle brackets `<>` represents a necessary parameter.
+The format of a parameter in the gTRFinder command line is a pair of strings, denoted here as `(-p, [q])`, `(-p, <q>)`, or `(-p)`. String `p` is the name of the parameter. String `q` is the value of the parameter input in the command line. `q` enclosed in square brackets `[]` represents an optional parameter. `q` enclosed in angle brackets `<>` represents a necessary parameter.
 
 @parameter (-M)
 

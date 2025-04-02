@@ -1,4 +1,4 @@
-# Install script for directory: /data/run01/scw6eyx/cyf/MTR_Detect
+# Install script for directory: /HOME/scw6eyx/run/cyf/gTRFinder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-objdump")
+  set(CMAKE_OBJDUMP "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/data/run01/scw6eyx/cyf/MTR_Detect/build/lib/pybind11/cmake_install.cmake")
+  include("/HOME/scw6eyx/run/cyf/gTRFinder/build/lib/pybind11/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/data/run01/scw6eyx/cyf/MTR_Detect/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/HOME/scw6eyx/run/cyf/gTRFinder/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

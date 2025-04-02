@@ -234,7 +234,7 @@ void merge_ktls(kmer_TRs_interval ktis, vector<pair<int,int>>& result, int kmer_
 	int kmer_sum=0;
 	for(int i=0;i<ktis.length;i++){
 		// space与当前kmer的space大致相同,加入合并区间
-		bool is_over_space = abs(temp_space - first_space) > min(2,first_space*0.01);
+		bool is_over_space = abs(temp_space - first_space) > min(2,int(first_space*0.01));
 		if(ktis.spaces[i]>temp_space*1.1 || is_over_space){
 			// cout<<first_space<<' '<<temp_space<<' '<<kmer_sum<<endl;
 			if(kmer_sum>=temp_space*0.1){

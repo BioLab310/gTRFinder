@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-cc")
+set(CMAKE_C_COMPILER "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-cc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "14.2.0")
@@ -22,11 +22,11 @@ set(CMAKE_C_COMPILER_SYSROOT "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/../x
 set(CMAKE_COMPILER_SYSROOT "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/../x86_64-conda-linux-gnu/sysroot/usr")
 
 
-set(CMAKE_AR "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-ar")
-set(CMAKE_C_COMPILER_AR "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-gcc-ar")
-set(CMAKE_RANLIB "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-gcc-ranlib")
-set(CMAKE_LINKER "/data/run01/scw6eyx/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-ld")
+set(CMAKE_AR "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-ar")
+set(CMAKE_C_COMPILER_AR "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-gcc-ar")
+set(CMAKE_RANLIB "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-gcc-ranlib")
+set(CMAKE_LINKER "/HOME/scw6eyx/run/miniconda3/envs/myenv/bin/x86_64-conda-linux-gnu-ld")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCC 1)
@@ -69,7 +69,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/data/run01/scw6eyx/miniconda3/envs/myenv/include;/data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include;/data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed;/data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/HOME/scw6eyx/run/miniconda3/envs/myenv/include;/HOME/scw6eyx/run/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include;/HOME/scw6eyx/run/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0/include-fixed;/HOME/scw6eyx/run/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/data/run01/scw6eyx/miniconda3/envs/myenv/lib;/data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0;/data/run01/scw6eyx/miniconda3/envs/myenv/lib/gcc;/data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/lib;/data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/lib;/data/run01/scw6eyx/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/HOME/scw6eyx/run/miniconda3/envs/myenv/lib;/HOME/scw6eyx/run/miniconda3/envs/myenv/lib/gcc/x86_64-conda-linux-gnu/14.2.0;/HOME/scw6eyx/run/miniconda3/envs/myenv/lib/gcc;/HOME/scw6eyx/run/miniconda3/envs/myenv/x86_64-conda-linux-gnu/lib;/HOME/scw6eyx/run/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/lib;/HOME/scw6eyx/run/miniconda3/envs/myenv/x86_64-conda-linux-gnu/sysroot/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

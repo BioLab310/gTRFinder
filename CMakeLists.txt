@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(MTR_Detect VERSION 0.1 DESCRIPTION "A Hello World Project")
+project(gTRFinder VERSION 0.1 DESCRIPTION "A Hello World Project")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
