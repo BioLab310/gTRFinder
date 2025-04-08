@@ -75,7 +75,7 @@ The `-G` command is utilized to generate *in silico* gene sequences. Users have 
 Running test
 
 ```
-$ ./gTRFinder -G -L 10 -T 10 -edr 0.1 -Sn 10 -Cn 20 
+$ ./gTRFinder -G -L 10 -T 10 -Edr 0.1 -Sn 10 -Cn 20 
 
 The aforementioned command will generate a sequence file named `10_10.fasta`, containing ten gene sequences. Each gene sequence will feature 20 tandem repeats, with each repeat unit characterized by the following parameters: a repeat length of 10 nucleotides, a copy number of 10, an edit distance ratio of 0.1, and a randomly generated initial sequence. Concurrently, a `10_10.info` file will be created to store the detailed generation parameters of the sequences.
 ```
@@ -121,10 +121,10 @@ The format of a parameter in the gTRFinder command line is a pair of strings, de
 
 @parameter (-Edr, <Edit distance ratio/Range>)
 
-	The edr parameter specifies the proportion of the edit distance relative to a perfect tandem repeat sequence, with a valid range of [0, 1].
+	The Edr parameter specifies the proportion of the edit distance relative to a perfect tandem repeat sequence, with a valid range of [0, 1].
 	
-	The exact edit distance ratio can be set by providing a single floating-point value, such as -edr 0.1.
-	Alternatively, a range for the edit distance ratio can be defined by providing two floating-point values, such as -edr 0 0.1.
+	The exact edit distance ratio can be set by providing a single floating-point value, such as -	Edr 0.1.
+	Alternatively, a range for the edit distance ratio can be defined by providing two floating-point values, such as -Edr 0 0.1.
 
 @parameter (-Cn,\<cell num\>)
 
